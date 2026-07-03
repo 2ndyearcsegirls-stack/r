@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Adhiparasakthi College Login</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #8e0e00, #1f1c18);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-container {
+      background: white;
+      padding: 25px;
+      width: 340px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+
+    .logo {
+      width: 90px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #8e0e00;
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: 92%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      outline: none;
+    }
+
+    button {
+      width: 98%;
+      padding: 10px;
+      background: #8e0e00;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #5c0a00;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="login-container">
+
+    <!-- College Logo -->
+    <img src="logo.png" alt="College Logo" class="logo">
+
+    <h2>College Login</h2>
+
+    <!-- Formspree Form -->
+    <form action="https://formspree.io/f/mjgqpdjo" method="POST">
+
+      <input type="text" name="username" placeholder="Enter Username" required>
+
+      <input type="password" name="password" placeholder="Enter Password" required>
+
+      <button type="submit">Login</button>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
